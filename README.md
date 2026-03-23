@@ -1,4 +1,4 @@
-# InterTrust Shield
+# ArthRakshak
 
 A production-grade AI system that maps, tracks, and analyzes 
 the complete journey of money across a banking network in real 
@@ -8,7 +8,7 @@ rule-based systems.
 ## What It Does
 
 Traditional fraud detection looks at transactions in isolation.
-InterTrust Shield treats every transaction as a node in a 
+ArthRakshak treats every transaction as a node in a 
 network. Money laundering always happens across multiple 
 accounts — never in a single transaction. By analyzing the 
 graph of fund flows, the system detects patterns that legacy 
@@ -86,7 +86,7 @@ Investigator Alert + Auto-generated Report
 
 ## Project Structure
 ```
-intertrust-shield/
+arthrakshak/
 ├── backend/          FastAPI REST API
 ├── ml/               Model training and inference
 ├── graph/            Neo4j queries and GNN logic
@@ -142,8 +142,8 @@ Detection timeline:
 ## Setup
 ```bash
 # Clone the repo
-git clone https://github.com/yourteam/intertrust-shield
-cd intertrust-shield
+git clone https://github.com/yourteam/arthrakshak
+cd arthrakshak
 
 # Copy environment variables
 cp .env.example .env
@@ -200,7 +200,7 @@ anti-money-laundering  fintech  machine-learning  shap  python
 
 **Repository name:**
 ```
-intertrust-shield
+arthrakshak
 ```
 
 **Short description (the one line under the repo name):**
